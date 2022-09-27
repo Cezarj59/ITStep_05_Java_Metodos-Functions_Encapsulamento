@@ -1,34 +1,33 @@
-# ITStep_04_Java_Metodos_Functions
-Atividade ITStep Aula_04 módulo Java - Métodos/Lógica -  Trabalhando com Métodos/Funções
-
-<h2>ITStep_04_Java_Trabalhando_com_Arrays.</h2>
-<p>Atividade ITStep Aula_03 módulo Java - Arrays/Lógica -  Trabalhando com Arrays.</p>
-
+<h2>ITStep_05_Java_Metodos/Functions - Encapsulamento.</h2>
+<p>Atividade ITStep Aula_05 módulo Java - Métodos/Lógica -  Trabalhando com Métodos/Funções.</p>
 
 <ul><h3>Tópicos</h3>
-<li>Arrays Multidimensionais</li>
+<li>Métodos</li>
+<li>Encapsulamento</li>
 <li>Lógica de Programação</li>
-<li>Tipos de Dados</li>
-<li>For</li>
-<li>Switch</li>
+<li>Tipos de Métodos</li>
+<li>static</li>
+<li>public</li>
+<li>private</li>
+<li>classe Math</li>
+<li>private</li>
 </ul>
 
 <ol><b>Atividades</b>
-<li>Declarando e inicializando Array Multidimencional.</li>
-<li>Imprima os valores da diagonal principal e da diagonal secundária.</li>
-<li>Imprimir pirâmide.</li>
-<li>Cadastre um array de notas de alunos.</li>
-<li>Declarando e inicializando Array Multidimencional de Alunos.</li>
-<li>Guarde cada aluno em uma linha do array.</li>
-<li>Cada aluno deverá ter 4 notas.</li>
-<li>Ao final do cadastro, exiba: As notas dos alunos e a média das notas.</li>
-<li>Diga se está aprovado ou reprovado sabendo: de 0 à 5 reprovado, de 5 à 7 recuperação
-* e de 7 pra cima está aprovado!</li>
+<li>Criando Métodos private/public.</li>
+<li>Métodos com retorno.</li>
+<li>Métodos void: sem return.</li>
+<li>Crie uma programa que te dê duas opções:
+<ol>
+<li>Imprimir um array de 10x10 com valores aleatórios entre 1 e 30;.</li>
+<li>Receber dois valores inteiros e exibir a soma, multiplicação e potência(2 e 3 == 2³) entre os dois.</li>
+</ol>
+</li>
 </ol>
 
-<h4>Output do cadastro de alunos e média das notas:</h4>
+<h4>Output do programa criado:</h4>
 
-![Screenshot from 2022-09-25 10-49-28](https://user-images.githubusercontent.com/78119622/192147047-ba44bf1f-3d6d-4eb8-b193-0cbada27b7df.png)
+![Screenshot from 2022-09-26 23-27-20](https://user-images.githubusercontent.com/78119622/192417314-8f80d6d0-1344-44d5-a28f-4de58468a0de.png)
 
 
 <h4>Tecnologias Utilizadas.</h4>
