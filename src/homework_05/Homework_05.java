@@ -4,12 +4,14 @@ import java.util.Scanner;
 
 public class Homework_05 {
 
+    static Scanner leia = new Scanner(System.in);
+
     public static void main(String[] args) {
         programa();
     }
 
     private static int inicio() {
-        Scanner leia = new Scanner(System.in);
+
         System.out.println("Digite 1 para imprimir um Array multidimencional com números aleatórios.\nDigite 2 para calcular de uma só vez: soma, multiplicação, potenciação.");
         int select = leia.nextInt();
 
@@ -31,10 +33,7 @@ public class Homework_05 {
     }
 
     /*-----------------------------*/
-    
     private static void executarCalculo() {
-        Scanner leia = new Scanner(System.in);
-
         System.out.println("\nDigite o primeiro valor para calcular:");
         int valor1 = leia.nextInt();
         System.out.println("\nDigite o segundo valor para calcular:");
@@ -53,8 +52,7 @@ public class Homework_05 {
     }
 
     /*-----------------------------*/
-    private static void novoCalculo() {
-        Scanner leia = new Scanner(System.in);
+    private static void novoCalculo() {      
         System.out.println("\nFazer um novo calculo digite C, voltar ao inicio digite I,  sair digite N.");
         String opcao = leia.next();
 
@@ -84,7 +82,7 @@ public class Homework_05 {
     }
 
     private static void novoArray() {
-        Scanner leia = new Scanner(System.in);
+     
         System.out.println("\nPara imprimir um novo Array digite P, voltar ao inicio digite I, sair digite N.");
         String opcao = leia.next();
 
@@ -114,13 +112,12 @@ public class Homework_05 {
     }
 
     /*------------Calculos-----------------*/
-    
     private static int soma(int valor1, int valor2) {
         return valor1 + valor2;
     }
 
     /*-----------------------------*/
-   private static double pot(double base, double exponente) {
+    private static double pot(double base, double exponente) {
         double b = base;
         double resultado = 0;
         for (double i = 1; i < exponente; i++) {
@@ -128,13 +125,14 @@ public class Homework_05 {
             resultado = b;
         }
 
-        return resultado;}
+        return resultado;
+    }
 
     /*-----------------------------*/
     private static int multiplica(int valor1, int valor2) {
         return valor1 * valor2;
     }
-    
+
 
     /*------------Array-----------------*/
     private static int[][] arrayInteiros() {
