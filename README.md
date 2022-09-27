@@ -18,7 +18,7 @@
 <li>Métodos void: sem return.</li>
 <li>Crie uma programa que te dê duas opções:
 <ol>
-<li>Imprimir um array de 10x10 com valores aleatórios entre 1 e 30;.</li>
+<li>Imprimir um array de 10x10 com valores aleatórios entre 1 e 30.</li>
 <li>Receber dois valores inteiros e exibir a soma, multiplicação e potência(2 e 3 == 2³) entre os dois.</li>
 </ol>
 </li>
