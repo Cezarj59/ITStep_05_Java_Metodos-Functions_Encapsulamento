@@ -10,7 +10,6 @@
 <li>public</li>
 <li>private</li>
 <li>classe Math</li>
-<li>private</li>
 </ul>
 
 <ol><b>Atividades</b>
