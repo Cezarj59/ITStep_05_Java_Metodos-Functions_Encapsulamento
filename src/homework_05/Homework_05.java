@@ -35,9 +35,9 @@ public class Homework_05 {
     /*-----------------------------*/
     private static void executarCalculo() {
         System.out.println("\nDigite o primeiro valor para calcular:");
-        int valor1 = leia.nextInt();
+        byte valor1 = leia.nextByte();
         System.out.println("\nDigite o segundo valor para calcular:");
-        int valor2 = leia.nextInt();
+        byte valor2 = leia.nextByte();
         System.out.println("\n" + calculos(valor1, valor2));
         novoCalculo();
     }
@@ -52,7 +52,7 @@ public class Homework_05 {
     }
 
     /*-----------------------------*/
-    private static void novoCalculo() {      
+    private static void novoCalculo() {
         System.out.println("\nFazer um novo calculo digite C, voltar ao inicio digite I,  sair digite N.");
         String opcao = leia.next();
 
@@ -82,7 +82,7 @@ public class Homework_05 {
     }
 
     private static void novoArray() {
-     
+
         System.out.println("\nPara imprimir um novo Array digite P, voltar ao inicio digite I, sair digite N.");
         String opcao = leia.next();
 
