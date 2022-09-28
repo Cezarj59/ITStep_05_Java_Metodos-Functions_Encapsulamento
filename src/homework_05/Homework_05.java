@@ -35,9 +35,9 @@ public class Homework_05 {
     /*-----------------------------*/
     private static void executarCalculo() {
         System.out.println("\nDigite o primeiro valor para calcular:");
-        int valor1 = leia.nextByte();
+        int valor1 = leia.nextInt();
         System.out.println("\nDigite o segundo valor para calcular:");
-        int valor2 = leia.nextByte();
+        int valor2 = leia.nextInt();
         System.out.println("\n" + calculos(valor1, valor2));
         novoCalculo();
     }
